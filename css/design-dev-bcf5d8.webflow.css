@@ -722,6 +722,11 @@ figcaption {
   background-color: #fff;
 }
 
+.button.w--current {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
 .button.is-link {
   color: var(--black);
   background-color: rgba(0, 0, 0, 0);
@@ -771,9 +776,14 @@ figcaption {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.button.is-secondary.is-small.w--current {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
 .button.is-small {
   border-radius: .8rem;
-  padding: .8rem 1.25rem;
+  padding: .7rem 1.25rem;
 }
 
 .button.is-small.is-footer {
@@ -3091,6 +3101,19 @@ figcaption {
   font-size: .9rem;
 }
 
+.heading-9 {
+  font-family: Clash, sans-serif;
+  font-size: 2.3rem;
+}
+
+.text-block-21 {
+  font-family: Montserrat, sans-serif;
+}
+
+.heading-10 {
+  font-size: 1.8rem;
+}
+
 @media screen and (min-width: 1920px) {
   .footer-social-link {
     text-decoration: none;
@@ -4457,6 +4480,7 @@ figcaption {
   .project-spec-name {
     margin-bottom: 12px;
     margin-right: 0;
+    display: block;
   }
 
   .heading-2-small {
